@@ -1,0 +1,13 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+D01,real_IR,"Đeo kính cận (clear); vùng mắt hai bên không đọc được trên NIR, nghi do phản xạ LED trên tròng kính",eye_left / eye_right / face13 (8 điểm mắt),"Ghi eye_left = unknown, eye_right = unknown; 8 điểm mắt đánh outside, không đặt điểm cho đủ (GUIDE 4.5, 4.6)"
+D02,real_IR,"Chỉ thấy được một mắt; mắt phải của tài xế (y nhỏ hơn trên ảnh xoay 90°) không rõ khe mắt",eye_right / face13 (4 điểm mắt phải),"eye_left = open, eye_right = unknown; 4 điểm mắt phải đánh outside, không suy từ mắt trái (GUIDE 4.4 quy tắc 1)"
+D04,real_IR,"Kính cận + đầu quay về phía gương phải; trên NIR không thấy rõ mắt và miệng, mặt chỉ rộng ~173 px",eye_left / eye_right / face13 (12/13 điểm),"Mắt ghi unknown; face13 vẫn vẽ vì mặt ≥ 60 px nhưng 12 điểm đánh outside, chỉ giữ chóp mũi"
+D05,real_IR,"Kính cận phản xạ đèn IR, không thấy khe mắt dù vẫn thấy hướng đầu",eye_left / eye_right / gaze_zone,"Mắt ghi unknown, 8 điểm mắt outside; gaze_zone = mirror_l chỉ dựa vào hướng đầu (đưa lên câu hỏi leo thang 2)"
+D06,real_IR,"Vùng mắt tối, không phân biệt được có đeo kính hay không (trên NIR kính có thể trông trong suốt)",glasses / eye_left / eye_right / gaze_zone,"glasses = unknown (không chọn none cho nhanh), mắt unknown, gaze_zone = other"
+D01–D06,real_IR,"Camera NIR tự chiếu đèn LED nên độ sáng ảnh gần như giống nhau, không biết ngày hay đêm",frame_meta.light,"light = unknown cho cả 6 khung"
+S04_ir,IR_sim,"Mặt người lớn ghế rear_left nhỏ (~107×84 px), IR-sim không cho thấy mắt/kính; RGB cùng cảnh cũng không rõ",face.eye_left / eye_right / glasses,"Giữ unknown trên cả _rgb và _ir; không vẽ face13 (người SVIRO chỉ có box face)"
+S02_ir,IR_sim,"Không thấy màu áo/dây; chỉ thấy hình dạng thân người, không có dải chéo vai–hông",person.seatbelt,"Ghi not_worn (SVIRO không ai thắt dây); không dùng worn_*"
+S05_ir,IR_sim,"Cốc rất nhỏ (~44×49 px) mất màu trên IR-sim, chỉ còn nhận bằng hình dạng và vị trí trên ghế",object.type,"Giữ type = cup theo hình dạng, không đoán bằng màu (GUIDE 4.4 quy tắc 4)"
+S03_ir,IR_sim,"Túi và hộp cùng độ sáng trên IR-sim; phân biệt bag/box chỉ còn dựa vào đường viền và độ cứng góc cạnh",object.type,"Gán box (rear_right) và bag (rear_middle) theo hình dạng; nếu không chắc thì other"
+S01_ir,IR_sim,"Ghế trẻ em rear_right: hình bên trong ghế vẫn thấy được hình dạng trên IR-sim nhưng không xác định được là trẻ hay đồ vật",child_seat.occupied,"Báo coach theo GUIDE §3; xem câu hỏi leo thang 1"
+S01_ir–S08_ir,IR_sim,"Ảnh dựng (render), IR mô phỏng bằng kênh đỏ, không có chói kính hay suy giảm theo khoảng cách như NIR thật",frame_meta.light,"light = unknown; không ghi hiện tượng của IR thật cho ảnh S##"

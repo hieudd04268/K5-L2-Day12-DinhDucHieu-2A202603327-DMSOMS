@@ -1,0 +1,20 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,hand,on_wheel,khác giá trị (IoU=1.00),no,yes,peer,4.7,Sửa on_wheel = yes: tay đang chạm vô lăng
+D01.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Giữ nguyên mouth_right = outside: bị che, không đoán chắc vị trí"
+D02.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,"Giữ nguyên mouth_right = outside: bị che, không đoán chắc vị trí"
+D03.png,face,eye_left,khác giá trị (IoU=0.93),closed,unknown,mine,4.5,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face,eye_right,khác giá trị (IoU=0.93),closed,unknown,mine,4.5,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,left_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,left_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D03.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên: thấy rõ hai mí khép, eye = closed, điểm mắt đặt được"
+D05.png,face,gaze_zone,khác giá trị (IoU=0.93),mirror_l,other,mine,4.5,Giữ nguyên gaze_zone = mirror_l (đã thống nhất với bạn review)
+D05.png,face,glasses,khác giá trị (IoU=0.93),clear,unknown,mine,4.5,Giữ nguyên glasses = clear: thấy rõ kính cận
+D06.png,face,glasses,khác giá trị (IoU=0.83),unknown,none,mine,4.5,Giữ nguyên glasses = unknown (đã thống nhất với bạn review)
+D06.png,face13,mouth_left.outside,khác cờ,1,0,mine,4.6,"Giữ nguyên mouth_left = outside: bị che, không đoán chắc vị trí"
+D06.png,face13,lip_upper.outside,khác cờ,1,0,mine,4.6,"Giữ nguyên lip_upper = outside: bị che, không đoán chắc vị trí"
+D06.png,face13,lip_lower.outside,khác cờ,1,0,mine,4.6,"Giữ nguyên lip_lower = outside: bị che, không đoán chắc vị trí"

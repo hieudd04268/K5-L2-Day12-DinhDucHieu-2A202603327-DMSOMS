@@ -1,0 +1,5 @@
+File: export_final.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=3, person=2
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chú: chạy bù sau giờ checkpoint (21/11, sau 16:24), trên export_final.zip với --only, không phải part_A.zip/part_B.zip trong buổi.
